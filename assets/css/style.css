@@ -1,0 +1,49 @@
+.nav-link{
+    color: #fff !important;
+}
+.carousel-item img{
+max-height: 400px;
+}
+.btn{
+    border-radius:  6px !important;
+}
+.card-img-top{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 10px auto;
+}
+.detailed_image{
+    width: 100%;
+}
+.text-justify{
+    text-align: justify;
+}
+.fa-bars{
+    font-size: 25px;
+}
+.modal-content{
+    max-width: 400px;
+    margin:100px auto;
+}
+.modal-footer {
+    justify-content: center; 
+}
+.email, .Password, .User{
+    height: 40px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+.fa-envelope , .fa-user, .fa-lock, .fa-eye, .fa-eye-slash{
+    width: 10%;
+    font-size: 18px;
+}
+#SignInHidePassword, #SignUpHidePassword{
+    display: none;
+}
+.emailInput, .PasswordInput, .UserInput{
+    outline: none;
+    width: 80%;
+    border: none;
+}
